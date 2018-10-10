@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>轮播图</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/轮播图/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/轮播图/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u74" class="ax_default">
+        <div id="u74_state0" class="panel_state" data-label="State1" style="">
+          <div id="u74_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u75" class="ax_default image">
+              <img id="u75_img" class="img " src="images/轮播图/u75.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div id="u74_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+          <div id="u74_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u76" class="ax_default image">
+              <img id="u76_img" class="img " src="images/轮播图/u76.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div id="u74_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+          <div id="u74_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u77" class="ax_default image">
+              <img id="u77_img" class="img " src="images/轮播图/u77.jpg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11 (椭圆形) -->
+      <div id="u78" class="ax_default ellipse selected" data-label="11" selectiongroup="11">
+        <img id="u78_img" class="img " src="images/轮播图/11_u78_selected.png"/>
+      </div>
+
+      <!-- 22 (椭圆形) -->
+      <div id="u79" class="ax_default ellipse" data-label="22" selectiongroup="11">
+        <img id="u79_img" class="img " src="images/轮播图/11_u78.png"/>
+      </div>
+
+      <!-- 33 (椭圆形) -->
+      <div id="u80" class="ax_default ellipse" data-label="33" selectiongroup="11">
+        <img id="u80_img" class="img " src="images/轮播图/11_u78.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u81" class="ax_default box_1">
+        <div id="u81_div" class=""></div>
+        <div id="u81_text" class="text ">
+          <p><span>拖拽过来一个图片，然后右键这个图片选择【转换为动态面板】，然后在右下方【概要】中的【动态面板】中双击，其中选择复制，选择添加还要重新设置配置，所以最好是</span><span style="color:#FF0000;">复制。</span></p><p><span style="color:#FF0000;"><br></span></p><p><span style="color:#000000;">然后单击state1，在上方【检视：动态面板】中的【属性】中选择【载入时】，选择其中的【设置面板状态】添加配置，就给state1添加了，在state2和state3相同添加就出现了轮播的效果</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">拖拽过来三个圆，全部选中，在右上侧的【检视】中的【设置选项组名称】添加名字（</span><span style="color:#FF0000;">这一个名字必须有</span><span style="color:#000000;">），然后在【选中】中添加效果，在然后三个圆依次设置【鼠标单击时】中的【设置选中-选中】中的一个true就可一个，自动生成互斥，也可以单独设置，但是要单独设置假</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">单击【概要】中的【动态面板】，上方【检视】中选择【状态改变时】在选择【添加条件】，选择当前是第几个图片，然后哪一个圆是选中状态为true就可以了，这时几个圆就添加几个case</span></p><p><span style="color:#000000;"><br></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
